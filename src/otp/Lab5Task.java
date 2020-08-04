@@ -13,10 +13,10 @@ public class Lab5Task {
          */
         private static int generateOTP() {
             // TODO create an `int` variable to store the number of digits in OTP and set it to 6.
-            int otp;
+            int digit=6;
 
             // TODO create an `int` variable to store the one time password and set it to 0.
-            otp=0;
+            int otp=0;
 
             // TODO create a for loop, start it from 0 and run it one time less than the number of digits in otp.
             for (int i=0;i<6 ;i++ ) {
