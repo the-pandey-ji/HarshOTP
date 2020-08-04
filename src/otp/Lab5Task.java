@@ -21,7 +21,7 @@ public class Lab5Task {
             // TODO create a for loop, start it from 0 and run it one time less than the number of digits in otp.
             for (int i=0;i<6 ;i++ ) {
             // TODO create an `int` variable to store a random number and set it to 0.
-
+            int randomNum=0;
             // TODO call the createRandomNumber method and set the result in the random number variable.
             // randomNumber = createRandomNumber();
             // TODO create an integer variable to store powers of 10,
@@ -34,7 +34,7 @@ public class Lab5Task {
             // TODO add the one time password variable to the powers of 10 variable and store it back to one time
             //  password variable.
 
-            // }
+            }
             return 0;
         }
 
