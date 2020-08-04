@@ -19,14 +19,15 @@ public class Lab5Task {
             int otp=0;
 
             // TODO create a for loop, start it from 0 and run it one time less than the number of digits in otp.
-            for (int i=0;i<6 ;i++ ) {
+            for (int i=0;i<digit ;i++ ) {
             // TODO create an `int` variable to store a random number and set it to 0.
             int randomNumber=0;
             // TODO call the createRandomNumber method and set the result in the random number variable.
              randomNumber = createRandomNumber();
-            // TODO create an integer variable to store powers of 10,
+            // TODO create an integer variable to store powers of 10
             //  initialize it with 10 ^ i (loop control variable), use Math.pow(10.0, i);
             //  Don't forget to add explicit type cast.
+                int power = (int)Math.pow(10,i);
 
             // TODO multiply the random number variable with powers Of 10 variable and store the result back to
             //  powers of 10 variable.
