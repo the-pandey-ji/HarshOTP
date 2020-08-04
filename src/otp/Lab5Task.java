@@ -16,7 +16,7 @@ public class Lab5Task {
             int digit=6;
 
             // TODO create an `int` variable to store the one time password and set it to 0.
-            int otp=0;
+            int otp=1;
 
             // TODO create a for loop, start it from 0 and run it one time less than the number of digits in otp.
             for (int i=0;i<digit ;i++ ) {
@@ -27,14 +27,22 @@ public class Lab5Task {
             // TODO create an integer variable to store powers of 10
             //  initialize it with 10 ^ i (loop control variable), use Math.pow(10.0, i);
             //  Don't forget to add explicit type cast.
-                int number = (int)Math.pow(10,i);
+                int number;
+                if(randomNumber!=0){
+                number = (int)Math.pow(10,i);
 
             // TODO multiply the random number variable with powers Of 10 variable and store the result back to
             //  powers of 10 variable.
+
             number=number*randomNumber;
+            otp=number+otp;
+                }
+                else
+                    otp=otp*10;
+
             // TODO add the one time password variable to the powers of 10 variable and store it back to one time
             //  password variable.
-                otp=number+otp;
+
 
             }
             return otp;
